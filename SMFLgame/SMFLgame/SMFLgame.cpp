@@ -1,12 +1,12 @@
 
 #include "stdafx.h"
-#include <SFML/Graphics.hpp>
+
 
 int main()
 {
-	sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
-	sf::CircleShape shape(100.f);
-	shape.setFillColor(sf::Color::Green);
+	sf::RenderWindow window(sf::VideoMode(600, 600), "SFML works!");
+	sf::CircleShape shape(20);
+
 
 	while (window.isOpen())
 	{
